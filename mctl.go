@@ -5,10 +5,10 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/tools/goctl/tpl"
 	"github.com/urfave/cli"
 	model "github.com/wenj91/mctl/command"
+	"github.com/wenj91/mctl/go-zero/core/logx"
+	"github.com/wenj91/mctl/go-zero/tools/goctl/tpl"
 )
 
 var (
@@ -36,7 +36,7 @@ var (
 								},
 								cli.StringFlag{
 									Name:  "style",
-									Usage: "the file naming format, see [https://github.com/tal-tech/go-zero/tree/master/tools/goctl/config/readme.md]",
+									Usage: "the file naming format, see [https://github.com/wenj91/mctl/go-zero/tree/master/tools/goctl/config/readme.md]",
 								},
 								cli.BoolFlag{
 									Name:  "idea",
@@ -63,7 +63,7 @@ var (
 								},
 								cli.StringFlag{
 									Name:  "style",
-									Usage: "the file naming format, see [https://github.com/tal-tech/go-zero/tree/master/tools/goctl/config/readme.md]",
+									Usage: "the file naming format, see [https://github.com/wenj91/mctl/go-zero/tree/master/tools/goctl/config/readme.md]",
 								},
 								cli.BoolFlag{
 									Name:  "idea",

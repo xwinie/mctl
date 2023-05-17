@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/core/mapping"
+	"github.com/wenj91/mctl/go-zero/core/logx"
+	"github.com/wenj91/mctl/go-zero/core/mapping"
 )
 
 var ErrNotFound = sql.ErrNoRows

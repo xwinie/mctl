@@ -4,7 +4,7 @@ package mocksql
 import (
 	"database/sql"
 
-	"github.com/tal-tech/go-zero/core/stores/sqlx"
+	"github.com/wenj91/mctl/go-zero/core/stores/sqlx"
 )
 
 type (

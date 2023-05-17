@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/tools/goctl/util/stringx"
+	"github.com/wenj91/mctl/go-zero/tools/goctl/util/stringx"
 	"github.com/wenj91/mctl/parser"
 )
 

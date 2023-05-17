@@ -2,3 +2,5 @@
 mctl.exe
 mctl
 .idea
+*.exe
+vendor

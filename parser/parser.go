@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tal-tech/go-zero/tools/goctl/util/stringx"
 	"github.com/wenj91/mctl/converter"
+	"github.com/wenj91/mctl/go-zero/tools/goctl/util/stringx"
 	"github.com/wenj91/mctl/model"
 	"github.com/xwb1989/sqlparser"
 )

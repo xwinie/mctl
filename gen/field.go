@@ -3,8 +3,8 @@ package gen
 import (
 	"strings"
 
-	"github.com/tal-tech/go-zero/tools/goctl/util"
-	"github.com/tal-tech/go-zero/tools/goctl/util/stringx"
+	"github.com/wenj91/mctl/go-zero/tools/goctl/util"
+	"github.com/wenj91/mctl/go-zero/tools/goctl/util/stringx"
 	"github.com/wenj91/mctl/parser"
 	"github.com/wenj91/mctl/template"
 )

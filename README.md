@@ -1,6 +1,6 @@
 # Mctl Model
 
-mctl model 为go-zero生成github.com/wenj91/gobatis模板代码工具，主要代码实现来源于`github.com/tal-tech/go-zero/tools/goctl/model`，目前仅支持识别mysql ddl进行model层代码生成，通过命令行或者idea插件（即将支持）。
+mctl model 为go-zero生成github.com/wenj91/gobatis模板代码工具，主要代码实现来源于`github.com/wenj91/mctl/go-zero/tools/goctl/model`，目前仅支持识别mysql ddl进行model层代码生成，通过命令行或者idea插件（即将支持）。
 
 ## 快速开始
 
@@ -369,7 +369,7 @@ OPTIONS:
     OPTIONS:
        --src value, -s value  the path or path globbing patterns of the ddl
        --dir value, -d value  the target dir
-       --style value          the file naming format, see [https://github.com/tal-tech/go-zero/tree/master/tools/goctl/config/readme.md]
+       --style value          the file naming format, see [https://github.com/wenj91/mctl/go-zero/tree/master/tools/goctl/config/readme.md]
        --idea                 for idea plugin [optional]
 	```
 
@@ -392,7 +392,7 @@ OPTIONS:
        --url value              the data source of database,like "root:password@tcp(127.0.0.1:3306)/database
        --table value, -t value  the table or table globbing patterns in the database
        --dir value, -d value    the target dir
-       --style value            the file naming format, see [https://github.com/tal-tech/go-zero/tree/master/tools/goctl/config/readme.md]
+       --style value            the file naming format, see [https://github.com/wenj91/mctl/go-zero/tree/master/tools/goctl/config/readme.md]
        --idea                   for idea plugin [optional]
 
 

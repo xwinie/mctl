@@ -3,8 +3,8 @@ package gen
 import (
 	"fmt"
 
-	"github.com/tal-tech/go-zero/tools/goctl/util"
 	"github.com/urfave/cli"
+	"github.com/wenj91/mctl/go-zero/tools/goctl/util"
 	"github.com/wenj91/mctl/template"
 )
 
